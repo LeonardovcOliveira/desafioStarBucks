@@ -4,7 +4,7 @@ import { HeaderStyle, StyleLink, Ul } from "./style";
 export default function Header() {
     return(
         <HeaderStyle>
-            <img src="src/assets/images/logo.png" alt="logomarca" />
+            <img src="https://github.com/mariaccarolina/desafioSurpresa/blob/main/src/assets/images/logo.png?raw=true" alt="logomarca" />
             <nav>
                 <Ul>
                     <li>
