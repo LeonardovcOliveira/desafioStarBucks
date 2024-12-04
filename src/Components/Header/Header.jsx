@@ -1,23 +1,22 @@
-import {Link} from "react-router-dom"
-import { HeaderStyle, StyleLink, Ul } from "./style";
+import { Link } from 'react-router-dom';
+import { Lista, Nav, Principal } from './style';
+import Logo from '../../assets/images/logo.png'
 
 export default function Header() {
-    return(
-        <HeaderStyle>
-            <img src="https://github.com/mariaccarolina/desafioSurpresa/blob/main/src/assets/images/logo.png?raw=true" alt="logomarca" />
-            <nav>
-                <Ul>
-                    <li>
-                        <StyleLink to="/">Home</StyleLink>
-                    </li>
-                    <li>
-                        <StyleLink to="/novidades">Novidades</StyleLink>
-                    </li>
-                    <li>
-                        <StyleLink to="/sobre">Sobre</StyleLink>
-                    </li>
-                </Ul>
-            </nav>
-        </HeaderStyle>
-    );
+  return (
+    <Principal>
+      <img src={Logo} alt="logomarca" />
+      <Nav>
+        <Lista>
+          <Link to="/">Home</Link>
+        </Lista>
+        <Lista>
+          <Link to="/novidades">Novidades</Link>
+        </Lista>
+        <Lista>
+          <Link to="/sobre">Sobre</Link>
+        </Lista>
+      </Nav>
+    </Principal>
+  );
 }
