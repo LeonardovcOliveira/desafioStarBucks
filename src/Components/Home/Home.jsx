@@ -1,13 +1,13 @@
 import { useState } from 'react';
-import copoLaranja from '../../assets/Images/copo1.png';
-import copoVermelho from '../../assets/Images/copo2.png';
-import copoAmarelo from '../../assets/Images/copo3.png';
-import copaoLaranja from '../../assets/Images/copao-laranja.png';
-import copaoVermelho from '../../assets/Images/copao-vermelho.png';
-import copaoAmarelo from '../../assets/Images/copao-amarelo.png';
+import copoLaranja from '../../assets/images/copo1.png';
+import copoVermelho from '../../assets/images/copo2.png';
+import copoAmarelo from '../../assets/images/copo3.png';
+import copaoLaranja from '../../assets/images/copao-laranja.png';
+import copaoVermelho from '../../assets/images/copao-vermelho.png';
+import copaoAmarelo from '../../assets/images/copao-amarelo.png';
 import ellipseVerde from "../../assets/images/ellipse-verde.png"
-import ellipseVermelho from '../../assets/Images/ellipse-vermelho.png';
-import ellipseAmarelo from '../../assets/Images/ellipse-amarelo.png';
+import ellipseVermelho from '../../assets/images/ellipse-vermelho.png';
+import ellipseAmarelo from '../../assets/images/ellipse-amarelo.png';
 import Button from '../Button/Button';
 import {
   ButtonWrapper,

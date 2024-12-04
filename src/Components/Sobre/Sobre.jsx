@@ -1,4 +1,4 @@
-import loja from '../../assets/Images/loja.png'
+import loja from '../../assets/images/loja.png'
 import Button from '../Button/Button'
 import { Fig, FigCap, Img, Paragrafo, Secao, Span, Titulo } from './style';
 
